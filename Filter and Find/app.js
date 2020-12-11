@@ -8,12 +8,23 @@ const people = [
 ]
 
 
+const fruits = [
+    'orenge','pear','lemon'
+];
+
+
+
+
+
 // const youngPeople = people.filter((person) => {
 //     // if (person.age < 30) {
 //     //     return person;
 //     // }
 //     return person.age < 30
 // });
+
+
+
 
 // const developer  = people.filter((person) => {
 //     return person.position === 'developer';
@@ -26,7 +37,29 @@ const people = [
 
 // const seniorDevs = people.filter((person) => person.position === 'jon')
 // console.log('youngPeople:', seniorDevs)
+//
+
+
+
 const findemethod = people.find((item) => {
     return item.age<40;
 });
 console.log(findemethod);
+
+
+
+// const lemon = fruits.find((item) => item === 'lemon');
+
+// console.log(lemon)  lemon
+
+// const lemon = fruits.find((item) => item === 'lemond');
+
+
+// console.log(lemon) undefine
+
+
+const randomPerson = people.filter((item)=> item.age < 26 )
+console.log(randomPerson)
+
+
+
